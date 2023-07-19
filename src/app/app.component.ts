@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppComponent implements OnInit {
   images = ['black-agend-cat.jpg', 'cat-astronaut.jpg', 'cat-bussines.jpg', 'garage-cat.jpg', 'glass-cat.jpg', 'villa-cat.jpg']
+  startSlogans = ['Cats overall', 'brewing catnip', 'reloading catness', 'Miauuuuuuuuu!', 'Cats overall', 'brewing catnip', 'reloading catness', 'Miauuuuuuuuu!']
   showImage = true;
   currentImage = 0
 

@@ -27,12 +27,26 @@ body {
     align-items: center;
     overflow: hidden;
 
-
     p {
         color: white;
         font-size: 64px;
         margin-left: 120px;
         border-left: solid red 5px;
+    }
+}
+
+.fadeInText{
+    animation: fadeInText 1s ease-in-out;
+}
+
+@keyframes fadeInText {
+    from{
+        opacity: 0;
+       transform: translateY(20px); 
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
     }
 }
 

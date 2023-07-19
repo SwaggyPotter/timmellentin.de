@@ -2,5 +2,5 @@
   <img *ngIf="showImage" class="imgSliderClass slideranimation" src="assets/img/{{images[currentImage]}}" alt="">
 </div>
 <div class="slider-container slider-overlay-container">
-  <p>Cats overall</p>
+  <p *ngIf="showImage" class="fadeInText">{{startSlogans[currentImage]}}</p>
 </div>
