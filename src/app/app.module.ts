@@ -5,12 +5,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SliderShowComponent } from './slider-show/slider-show.component';
 import { HeaderMenuComponent } from './header-menu/header-menu.component';
+import { PicturesComponent } from './pictures/pictures.component';
+import { HistoryLinkComponent } from './history-link/history-link.component';
+import { CatsUniverseComponent } from './cats-universe/cats-universe.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SliderShowComponent,
-    HeaderMenuComponent
+    HeaderMenuComponent,
+    PicturesComponent,
+    HistoryLinkComponent,
+    CatsUniverseComponent
   ],
   imports: [
     BrowserModule,
